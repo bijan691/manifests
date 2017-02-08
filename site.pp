@@ -15,4 +15,11 @@ comment => 'Eric, Good',
 home => '/home/eric',
 managehome => true,
  }
+ user{'ram':
+ensure => present,
+comment => 'Ram, gopal',
+home => '/home/ram',
+managehome => true,
+ }
+ 
 }
